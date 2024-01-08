@@ -1,0 +1,213 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color:#fe5b3d;
+    --second-color:#ffac38;
+    --text-color:#444;
+    --gradient:linear-gradient( #fe5b3d, #ffac38);
+}
+/* custom scroll bar */
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background:var(--main-color);
+    border-radius: 5rem;
+}
+
+.header {
+    background: #eeeef0;
+    height: 100px;
+}
+.custom-image{
+    width: 50px;
+            
+}
+.nav-link::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: var(--gradient);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    background-color: var(--second-color);
+    border-radius: 7px;
+    transition: 1s;
+}
+.title {
+    color: var(--text-color);
+    text-decoration: solid;
+    
+
+}
+.logo1, .menue{
+    color: var(--main-color);
+}
+.login,.btn1{
+    background-color:  #eeeef0;
+
+}
+.login:hover {
+    background-color: var(--second-color);
+    transition: 1s;
+
+}
+.btn2:hover {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 700;
+    transition: 0.4s;
+    border: #474fa0 3.5px solid;
+
+
+
+}
+.btn2 {
+    background-color: #474fa0;
+    color: white;
+    border-radius: 15px;
+}
+.btn1 {
+    background-color: var(--second-color);
+}
+.btn3 {
+    background-color: #474fa0;
+    color: white;
+    border-radius: 15px;
+}
+.btn3:hover{
+    background-color: #474fa0;
+    color: white;
+    font-weight: 700;
+    border: var(--main-color) 3px solid;
+    transition: 0.3s;
+}
+.d-block {
+    height:500px;
+    width: 100%;
+}
+
+.container1 {
+    background-color:#eeeef0;
+ 
+    border-radius: 10px;
+    padding-top: 100px;
+}
+.bx{
+    font-size: 34px;
+    padding: 10px;
+    background: #eeeff1;
+    border-radius: 0.5rem;
+    color: var(--main-color);
+}
+
+.countLabel {
+    background-color: #474fa0;
+}
+
+.like:hover{
+    font-weight: 800;
+    transition: 0.3s;
+    font-size: 30px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+
+}
+.like, .unlike {
+    background-color: #474fa0;
+    color: var(--main-color);
+    margin: 7px;
+}
+
+.unlike:hover{
+    font-weight: 800;
+    transition: 0.3s;
+    font-size: 30px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+}
+
+
+.container2 {
+    margin:200px;
+    size: 500px;
+}
+
+.learnMore {
+    background-color: #474fa0;
+    color: white;
+}
+.learnMore:hover{
+    font-weight: bold;
+    color: white;
+    background-color: var(--main-color);
+}
+
+
+
+.newsletter{
+    background: linear-gradient(to top right, #fe5b3d, #ffac38);
+    height: 150px;
+}
+
+.h1{
+    margin-top: 100px;
+    padding-top: 40px;
+}
+
+
+
+table {
+    margin-top: 20px;
+  }
+  table tr:hover{
+      background-color: orange;
+      color: white;
+  }
+  table th:hover{
+      background-color: orange;
+      color: white;
+  }
+
+  th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+
+  td {
+    background-color: #ffffff;
+  }
+
+  .table-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .socialIcon:hover {
+    background-color: var(--text-color);
+  }
+
+  .leader {
+    font-weight: bold;
+  }
+  .h2{
+    color: var(--main-color);
+    font-weight: bolder;
+  }
