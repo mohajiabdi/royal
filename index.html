@@ -158,11 +158,12 @@
     
     <!-- Car renting form  -->
     <div class="container container1 mt-5 shadow" id="service">
+      <h1 class="fw-bold display-4 text-center">Renting Car Form</h1>
         <form id="rentingForm" action="">
           <div class="row">
             <div class="input-box col-12 col-sm-6 col-lg-3">
               <label for="address">Location:</label>
-              <select id="address" name="address">
+              <select id="address" name="address" class="form-select form-select-lg mb-3">
                 <option value="Wadajir">Wadajir</option>
                 <option value="Km4">Km4</option>
                 <option value="Hodan">Hodan</option>
@@ -172,7 +173,7 @@
             </div>
             <div class="input-box col-12 col-sm-6 col-lg-3">
               <label for="cars">Car Type:</label>
-              <select id="cars" name="cars">
+              <select id="cars" name="cars" class="form-select form-select-lg mb-3">
                 <option value="Tesla">Tesla</option>
                 <option value="Lamborghini">Lamborghini</option>
                 <option value="Bentley">Bentley</option>
@@ -182,18 +183,17 @@
             </div>
             <div class="input-box col-12 col-sm-6 col-lg-3">
               <span>Pick-Up Date</span>
-              <input type="date" id="pickup-date" name="pickup-date" required>
+              <input type="date" id="pickup-date" name="pickup-date" class="form-control mb-3" required>
             </div>
             <div class="input-box col-12 col-sm-6 col-lg-3">
               <span>How many days: </span>
-              <input type="number" id="quantity" name="quantity" min="1" max="30" step="1" pattern="\d+" required>
+              <input type="number" class="form-control mb-3" id="quantity" name="quantity" min="1" max="30" step="1" pattern="\d+" required>
             </div>
           </div>
-          <input type="submit" value="Submit" class="btn btn2 mt-4 mb-4 ms-auto shadow ">
+          <input type="submit" value="Submit" class="btn btn2 mt-4 mb-5 ms-auto shadow w-100">
           <p id="result" class="text-success" style="font-weight: bold;"></p>
         </form>
       </div>
-
 
 
 
