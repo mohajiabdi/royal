@@ -201,7 +201,8 @@ table {
   }
 
   .socialIcon:hover {
-    background-color: var(--text-color);
+   background-color: var(--main-color);
+    color: white;
   }
 
   .leader {
