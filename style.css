@@ -204,6 +204,10 @@ table {
    background-color: var(--main-color);
     color: white;
   }
+  .copyright{
+    font-weight: bold;
+    font-size: 18px;
+  }
 
   .leader {
     font-weight: bold;
