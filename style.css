@@ -211,3 +211,15 @@ table {
     color: var(--main-color);
     font-weight: bolder;
   }
+
+
+
+.carouselRight{
+    fill: var(--main-color);
+    background-color: var(--main-color);
+  }
+
+  .carouselLeft{
+   background-color: var(--main-color);
+  }
+ 
